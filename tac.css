@@ -110,3 +110,16 @@ body {
     position: relative;
     bottom: 70px;
 }
+.smol {
+    display: none;
+}
+@media screen and (max-width: 800px) {
+    .smol {
+        display: block;
+        position: relative;
+        text-align: center;
+    }
+    .ins {
+        display: none;
+    }
+}
