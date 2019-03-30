@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    background-color: gray;
+    margin: 0;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    padding: 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+h1 {
+    margin: 0;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.gridbox {
+    border: 5px solid black;
+    height: 100px;
+    width: 100px;
+}
+#grcontainer {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(235, 232, 232);
+    width: 400px;
+    height: 400px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#toprow {
+    display: flex;
+    flex-direction: row;
+}
+#midrow {
+    display: flex;
+    flex-direction: row;
+}
+#botrow {
+    display: flex;
+    flex-direction: row;
+}
+.rows {
+    display: flex;
+    justify-content: center;
+}
+#topleft {
+    border-left: 0;
+    border-top: 0;
+}
+#topmid {
+    border-top: 0;
+}
+#topright {
+    border-top: 0;
+    border-right: 0;
+}
+#midleft {
+    border-left: 0;
+}
+#midright {
+    border-right: 0;
+}
+#botleft {
+    border-left: 0;
+    border-bottom: 0;
+}
+#botmid {
+    border-bottom: 0;
+}
+#botright {
+    border-right: 0;
+    border-bottom: 0;
+}
+.ins {
+    position: relative;
+    text-align: center;
+}
+#ins1 {
+    bottom: 500px;
+    
+}
+#ins2 {
+    bottom: 500px;
+}

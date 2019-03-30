@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title></title>
-  <link rel="stylesheet" type="text/css" href="main.css">
+  <title>This is a tic tac toe game.</title>
+  <link rel="stylesheet" type="text/css" href="tac.css">
 </head>
 <body>
-  <p>HTML setup shortcut.</p>
+  <header>
+    <h1>Simple Tic-Tac-Toe</h1>
+    <nav>
+      <ul>
+        <li><a href="https://github.com/bmtron" target="_blank">Github Link</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="grcontainer">
+    <section id="toprow" class="rows">
+      <div class="rowtop gridbox" id="topleft"></div>
+      <div class="rowtop gridbox" id="topmid"></div>
+      <div class="rowtop gridbox" id="topright"></div>
+    </section>
+    <section id="midrow" class="rows">
+      <div class="rowmid gridbox" id="midleft"></div>
+      <div class="rowmid gridbox" id="midmid"></div>
+      <div class="rowmid gridbox" id="midright"></div>
+    </section>
+    <section id="botrow" class="rows">
+      <div class="rowbot gridbox" id="botleft"></div>
+      <div class="rowbot gridbox" id="botmid"></div>
+      <div class="rowbot gridbox" id="botright"></div>
+    </section>
+  </section>
+  <main>
+      <p class="ins" id="ins1">This is a simple tic-tac-toe game. Just click on the square where you want to place your piece.</p>
+      <p class="ins" id="ins2">(the player is always X)</p>
+    </main>
 </body>
 </html>
