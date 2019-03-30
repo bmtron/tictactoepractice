@@ -107,9 +107,7 @@ body {
     position: relative;
     bottom: 70px;
 }
-.smol {
-    display: none;
-}
+
 @media screen and (min-width: 0px) {
     .smol {
         display: block;
@@ -131,4 +129,8 @@ body {
     .smol {
         display: none;
     }
+}
+
+.hide {
+    display: none;
 }
